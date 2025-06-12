@@ -1,0 +1,158 @@
+*{
+    font-family:"Lato", sans-serif;
+}
+ 
+body{
+    background-color: rgb(223, 220, 220);
+    margin: 0;
+    display: flex;
+}
+.main{
+    background-color:rgb(223, 220, 220) ;
+    border: 3px solid white;
+    border-radius: 15px;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.names{
+    height: 90vh;
+    width: 350px;
+    border-radius: 25px;
+    background-color: white;
+    align-items: center;
+    margin-left: 20px;
+    align-content: center;
+    margin-top: 20px;
+}
+p{
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height: 93px;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 30px;
+}
+.subs{
+    margin-left: 80px;
+    
+}
+i{
+    padding: 0px 14px;
+    margin-bottom: 10px;
+}
+.navi{
+    border: 2px solid rgb(255, 255, 255);
+    height: 30px;
+    width: 1260px;
+    margin-left: 390px;
+    margin-top: -730px;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.but1{
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 1px solid rgb(223, 220, 220) ;
+  margin-right: 30px;
+}
+:hover.but1:hover{
+    background-color: rgb(230, 86, 86);
+}
+.search{
+    width: 380px;
+    height: 5vh;
+    padding: 10px 10px;
+    background-color:rgb(223, 220, 220)  ;
+    border: 1px solid rgb(223, 220, 220) ;
+    border-radius: 17px;
+}
+.but2{
+    margin-left: 20px;
+    margin-right: 7px;
+    
+}
+.but3{
+    margin-left: 400px;
+    font-size: 30px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.but4{
+    padding: 5px 20px ;
+    border-radius: 10px;
+    border: 1px solid rgb(223, 220, 220) ;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-right: 60px;
+
+}
+:hover.but4:hover{
+    color: white;
+    background-color: black;
+}
+.but5{
+    width: 380px;
+    align-items: center;
+    margin-top: 20px;
+}
+.bann{
+    margin-left: 390px;
+    margin-top: 20px;
+    width: 1270px;
+    height: 20vh;
+    border-radius: 15px;
+}
+.ban{
+    margin-top: -10px;
+}
+.vid{
+  background-color: white;
+  border-radius: 12px;
+  height: 210px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+}
+.videos{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin-left: 400px;
+  margin-bottom: 60px;
+}
+.cont{
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin-top: -20px;
+}
+.imge{
+    height: 120px;
+    width:250px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 13px;
+}
+h4{
+    margin-top: -4px;
+    margin-left: 30px;
+}
+h6{
+    margin-left: 30px;
+    margin-top: -17px;
+}
